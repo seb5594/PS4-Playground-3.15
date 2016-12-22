@@ -39,7 +39,7 @@
         <li><a href="#">File Browser (Coming Soon)</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Latest Compatible Firmware: 3.55</a></li>
+				<li><a href="#">Supported Firmware: 3.15</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -58,17 +58,17 @@
         disableFeatures = true;
       }
 
-      // If the system is a playstation, ensure the version is 3.55!
-      else if(ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple")) != "3.55")
+      // If the system is a playstation, ensure the version is 3.15!
+      else if(ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple")) != "3.15")
       {
-        document.write('<div class="alert alert-danger"><strong>Your PS4 is not on FW 3.55!</strong> Your current running FW version is ' + ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple")) + ', which is not compatible with PS4 Playground. The "Evaluate" button and all other features have been disabled</div>');
+        document.write('<div class="alert alert-danger"><strong>Your PS4 is not on FW 3.15!</strong> Your current running FW version is ' + ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple")) + ', which is not compatible with PS4 Playground. The "Evaluate" button and all other features have been disabled</div>');
         disableFeatures = true;
       }
 
-      // If we've made it this far, the system must be a PS4 and must be version 3.55
+      // If we've made it this far, the system must be a PS4 and must be version 3.15
       else
       {
-        document.write('<div class="alert alert-success"><strong>Congratulations!</strong> We\'ve detected your PlayStation 4 is running FW 3.55, which is compatible with PS4 Playground! Enjoy!</div>');
+        document.write('<div class="alert alert-success"><strong>Congratulations!</strong> We\'ve detected your PlayStation 4 is running FW 3.15, which is compatible with PS4 Playground! Enjoy!</div>');
       }
     </script>
 
