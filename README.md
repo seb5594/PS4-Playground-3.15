@@ -1,5 +1,5 @@
 # PS4 Playground (FW 3.15)
-PS4 Playground is a project created around the 3.55 Code Execution Userland exploit created by xyz and ported by Fire30. The name and idea is based off CTurt's original "PS4 Playground" developed for FW 1.76. It currently only features a POC test of the exploit and a system information page. The project is still a WIP.
+PS4 Playground is a project created around the 3.15 Code Execution Userland exploit created by xyz and ported by Fire30. The name and idea is based off CTurt's original "PS4 Playground" developed for FW 1.76. It currently only features a POC test of the exploit and a system information page. The project is still a WIP.
 
 To see updates on what is being worked on for PS4 Playground, I'm going to start posting updates about it on my twitter @SpecterDev.
 
