@@ -3,6 +3,9 @@ PS4 Playground is a project created around the 3.15 Code Execution Userland expl
 
 To see updates on what is being worked on for PS4 Playground, I'm going to start posting updates about it on my twitter @SpecterDev.
 
+# Live Demo
+https://seb5594.github.io/PS4-Playground-3.15/
+
 # The Exploit
 The exploit was originally ported by Fire30, however I cleaned it up a bit and implemented it so everything is shown in the browser. There is no longer a need to run a Python server / run back and forth between your PS4 and your PC to see the information, it's all right on the browser. The exploit is also slightly more stable, as after my edits it seems to work more consistantly in the web implementation and the browser doesn't crash immediately after the exploit is performed successfully.
 
